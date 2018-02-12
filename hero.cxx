@@ -1,5 +1,5 @@
 /*
- * superhero.cpp
+ * hero.cxx
  * 
  * Copyright 2018 Guest <guest-57a1zj@comp1210>
  * 
@@ -21,40 +21,21 @@
  * 
  */
 
-#include <iostream>
 
+#include <iostream>
 #include <string>
 #include "superhero.h"
- using namespace std;
- class Superhero{
- private:
- string Theflash;
- int league;
- 
- public:
- Superhero(string thehero, int justiceleague){
- 
- 
- }
- 
- void SetTheflash(string hero){
- 
- Theflash = hero;
- }
- void  setleague(int justice){
- 
- League = justice;
- }
- 
-string getTheflash() const{
+#include <vector>
 
-return Theflash;
+int main()
+{
+	vector <superhero_H>Thebatman;
+	for(int i = 0; i = 4; i++){
+		
+		Thebaman.push_back(superhero_H("Batman", i));
+		cout << "My vector of heros: " << Thebatman.getleague() << endl;
+		
+		}
+	return 0;
 }
- int getLeague() const{
-
-return League;
-}
- 
- 
- };
 
