@@ -34,6 +34,7 @@ int main()
 		
 		Thebaman.push_back(superhero_H("Batman", i));
 		cout << "My vector of heros: " << Thebatman.getleague() << endl;
+		cout << "My vector of heros: " << Thebatman.getTheflash() << endl;
 		
 		}
 	return 0;

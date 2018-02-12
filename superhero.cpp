@@ -26,35 +26,31 @@
 #include <string>
 #include "superhero.h"
  using namespace std;
- class Superhero{
- private:
- string Theflash;
- int league;
- 
- public:
- Superhero(string thehero, int justiceleague){
- 
+/*
+ Superhero(string hero, int justiceleague){
+ setleague(justiceleague);
+ setTheflash(hero);
  
  }
- 
- void SetTheflash(string hero){
+ */
+ void setTheflash(string hero){
  
  Theflash = hero;
  }
  void  setleague(int justice){
  
- League = justice;
+ league = justice;
  }
  
-string getTheflash() const{
+string getTheflash() {
 
 return Theflash;
 }
- int getLeague() const{
+ int getleague(){
 
-return League;
+return league;
 }
  
  
- };
+ 
 

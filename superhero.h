@@ -20,41 +20,26 @@
  * 
  * 
  */
-
+#ifndef superhero_H
+#define superhero_H
 
 #include <iostream>
 
 #include <string>
  using namespace std;
  class Superhero{
+ 
  private:
  string Theflash;
  int league;
  
  public:
- Superhero(string thehero, int justiceleague){
- 
- 
- }
- 
- void SetTheflash(string hero){
- 
- Theflash = hero;
- }
- void  settheleaague(int justice){
- 
- League = justice;
- }
- 
-string getTheflash() const{
-
-return Theflash;
-}
- int getLeague() const{
-
-return League;
-}
+// Superhero(string hero, int justiceleague); 
+ void setTheflash(string hero);
+ void  setleague(int justice);
+string getTheflash();
+ int getleague() ;
  
  
  };
-
+#endif
